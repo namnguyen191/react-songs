@@ -1,0 +1,30 @@
+.songsList {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.song {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    border-bottom: 1px solid black;
+}
+
+.songTitle {
+    text-transform: capitalize;
+}
+
+.selectButton {
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 5px;
+    width: 100;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+}
